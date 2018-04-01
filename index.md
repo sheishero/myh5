@@ -1,37 +1,72 @@
-## 我的第一个网页!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        html,body,page{
+            width:100%;
+            height:100%;
+            margin:0;
+        }
+        page{
+            font-size:150px;
+            position:absolute;
+            padding-top:200px;
+            padding-left:700px;
+        }
+        #c{
+            background-color:#adff77;
+            animation:ct 8s infinite;
+        }
+        #x{
+            background-color:#fff297;
+            animation:xt 8s infinite;
+        }
+        #q{
+            background-color:#ff8d3b;
+            animation:qt 8s infinite;
+        }
+        #d{
+            background-color:#cdf1ff;
+            animation:dt 8s infinite;
+        }
+        @keyframes ct {
+            0%{opacity:0}
+            20%{opacity:100}
+            40%{opacity:0}
+            60%{opacity:0}
+            100%{opacity:0}
+        }
+        @keyframes xt {
+            0%{opacity:0}
+            20%{opacity:0}
+            40%{opacity:100}
+            60%{opacity:0}
+            100%{opacity:0}
+        }
+        @keyframes qt {
+            0%{opacity:0}
+            20%{opacity:0}
+            40%{opacity:0}
+            60%{opacity:100}
+            100%{opacity:0}
+        }
+        @keyframes dt {
+            0%{opacity:0}
+            20%{opacity:0}
+            40%{opacity:0}
+            60%{opacity:0}
+            80%{opacity:100}
+            100%{opacity:0}
+        }
+    </style>
+</head>
+<body>
+<page id="c">春</page>
+<page id="x">夏</page>
+<page id="q">秋</page>
+<page id="d">冬</page>
 
-You can use the [editor on GitHub](https://github.com/sheishero/myh5/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sheishero/myh5/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
