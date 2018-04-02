@@ -85,19 +85,19 @@ page{
 
 
 #c{
-    background-image: url("../image/chun.jpg");
+    background-image: url("chun.jpg");
     animation:ct 15s infinite;/*引用ct动画 持续为8秒，无限次循环*/
 }
 #x{
-    background-image: url("../image/xia.jpg");
+    background-image: url("xia.jpg");
     animation:xt 15s infinite;
 }
 #q{
-    background-image: url("../image/qiu.jpg");
+    background-image: url("qiu.jpg");
     animation:qt 15s infinite;
 }
 #d{
-    background-image: url("../image/dong.jpg");
+    background-image: url("dong.jpg");
     animation:dt 15s infinite;
 }
 @keyframes ct {/*设置一个名字为ct的动画*/
