@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>spring summer autumn and winter</title>
-    <link href="css/page.css" type="text/css" rel="stylesheet">
+    <link href="page.css" type="text/css" rel="stylesheet">
 <body>
 <page id="c"><font color="#adff2f">春</font>
     <span id="r"><font color="#adff2f">万物复苏</font></span>
