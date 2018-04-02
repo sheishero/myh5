@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>spring summer autumn and winter</title>
+    <link href="css/page.css" type="text/css" rel="stylesheet">
+<body>
+<page id="c"><font color="#adff2f">春</font>
+    <span id="r"><font color="#adff2f">万物复苏</font></span>
+</page>
+<page id="x"><font color="aqua">夏</font>
+    <span id="t"><font color="aqua">骄阳似火</font></span>
+</page>
+<page id="q">
+    <font color="#ff7f50">秋</font>
+    <span id="l"><font color="#ff7f50">天高云淡</font></span>
+</page>
+<page id="d"><font color="#f0f8ff">冬</font>
+    <apan id="y"><font color="#f0f8ff">白雪皑皑</font></apan>
+</page>
+</body>
+</html>
